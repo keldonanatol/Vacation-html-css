@@ -78,7 +78,7 @@ header h1 {
 
 header nav {
   display: flex;
-  justify-content: end;
+  justify-content: center;
 }
 
 
@@ -146,5 +146,9 @@ footer p {
 
   .group {
     flex-direction: row;
+  }
+
+  header nav {
+    justify-content:end;
   }
 }
