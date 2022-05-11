@@ -42,6 +42,8 @@ main img {
 .group {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  margin: 5px;
 }
 
 .item {
@@ -117,7 +119,10 @@ form select,
 form input {
   margin-bottom: 20px;
   width: 180px;
+  float: right;
 }
+
+
 
 form button {
   background-color: #ff385c;
@@ -146,6 +151,19 @@ footer p {
 
   .group {
     flex-direction: row;
+  }
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+  }
+
+  form input,
+  form select {
+   margin-bottom: 0;
   }
 
   header nav {
