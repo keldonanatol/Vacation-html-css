@@ -111,7 +111,8 @@ form {
   border: 2px solid #ff385c;
   padding: 10px;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between
 }
 
 form label {
