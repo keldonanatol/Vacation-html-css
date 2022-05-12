@@ -157,13 +157,20 @@ footer p {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 5px;
   }
 
   form input,
   form select {
-   margin-bottom: 0;
+    float: left;
+    vertical-align: bottom;
+  }
+
+  form label {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: top;
   }
 
   header nav {
