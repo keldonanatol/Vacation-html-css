@@ -154,15 +154,19 @@ footer p {
 @media all and (min-width: 480px) {
 
   .group {
+    display: flex;
     flex-direction: row;
+    flex-flow: row nowrap;
+    align-items: center;
   }
+
 
   form {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    margin: 5px;
+    margin: auto;
   }
 
   form input,
@@ -177,7 +181,14 @@ footer p {
     vertical-align: top;
   }
 
+  
   header nav {
     justify-content: end;
+    padding-top: 5px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
   }
 }
